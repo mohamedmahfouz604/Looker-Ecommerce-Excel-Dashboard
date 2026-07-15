@@ -23,9 +23,7 @@ The dashboard enables users to:
 The project uses the **Looker E-commerce Dataset** available on Kaggle.
 
 **Dataset Source**
-
 https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset
-
 ---
 
 # 📊 Dataset Description
