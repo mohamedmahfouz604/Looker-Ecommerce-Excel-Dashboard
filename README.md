@@ -71,8 +71,6 @@ Landing page used for dashboard navigation.
 - Modern dashboard interface
 - Quick access to all analytical pages
 
-![Home Dashboard](Images/Home.png)
-
 ---
 
 ## 📊 Overview Dashboard
@@ -100,9 +98,6 @@ Provides a high-level summary of business performance.
 - Track monthly order growth.
 - Discover top-performing states.
 - Analyze key business KPIs.
-
-![Overview Dashboard](Images/Overview.png)
-
 ---
 
 ## 💰 Sales Dashboard
@@ -125,8 +120,6 @@ Analyzes revenue performance across products and distribution channels.
 - Analyze revenue by customer gender.
 - Forecast future revenue trends.
 
-![Sales Dashboard](Images/Sales.png)
-
 ---
 
 ## 👥 Customer Analytics Dashboard
@@ -147,8 +140,6 @@ Provides insights into customer demographics and purchasing behavior.
 - Identify valuable customer segments.
 - Compare purchasing behavior across age groups.
 - Discover regions with the largest customer base.
-
-![Customer Dashboard](Images/CustomerAnalytics.png)
 
 ---
 
@@ -177,8 +168,6 @@ Analyzes website traffic and user engagement.
 - Analyze browser usage.
 - Monitor website activity over time.
 - Understand customer interaction behavior.
-
-![Website Dashboard](Images/WebsiteAnalytics.png)
 
 ---
 
