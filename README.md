@@ -279,10 +279,10 @@ Looker-Ecommerce-Excel-Dashboard/
 **Mohamed Mahfouz**
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/mohamedmahfouz604
 
 LinkedIn:
-https://www.linkedin.com/in/YOUR_LINKEDIN
+https://www.linkedin.com/in/mohamed-mahfouz-434283357
 
 ---
 
