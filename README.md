@@ -1,46 +1,48 @@
-# 📊 Looker E-commerce Sales Analysis Dashboard (Excel)
+# 📊 Looker E-commerce BigQuery Dashboard (Excel)
 
-An interactive business intelligence dashboard built in **Microsoft Excel** using **Power Pivot**, **Power Query**, **Data Model**, **DAX**, **Pivot Tables**, and **Pivot Charts** to analyze sales performance, customer behavior, and website analytics.
+An interactive Business Intelligence dashboard built in **Microsoft Excel** using **Power Query**, **Power Pivot**, **Data Model**, **DAX**, **Pivot Tables**, and **Pivot Charts** to analyze sales performance, customer behavior, and website analytics.
 
 ---
 
 # 📖 Project Overview
 
-This project analyzes an e-commerce dataset to provide business insights through interactive dashboards.
+This project analyzes the **Looker E-commerce BigQuery Dataset** to provide interactive business insights across multiple analytical dashboards.
 
-The dashboard enables users to:
+The solution enables users to:
 
 - Monitor overall business performance.
-- Analyze sales trends.
-- Evaluate customer demographics.
-- Understand website traffic and user behavior.
-- Filter all visualizations dynamically using Slicers and Timeline.
+- Analyze sales and revenue trends.
+- Explore customer demographics.
+- Evaluate website traffic and user engagement.
+- Filter all reports dynamically using **Slicers**.
 
 ---
 
 # 🗂 Dataset
 
-The project uses the **Looker E-commerce Dataset** available on Kaggle.
+This project uses the **Looker E-commerce BigQuery Dataset** available on Kaggle.
 
 **Dataset Source**
+
 https://www.kaggle.com/datasets/mustafakeser4/looker-ecommerce-bigquery-dataset
+
 ---
 
 # 📊 Dataset Description
 
-The dataset contains transactional and website interaction data collected from an e-commerce platform.
+The dataset contains transactional, customer, inventory, and website event data collected from an e-commerce platform.
 
-### Tables Used
+## Tables Used
 
 | Table | Description |
 |--------|-------------|
-| Users | Customer demographic information (Age, Gender, State, etc.) |
-| Orders | Order details including dates, users, and purchased items |
-| Order Items | Product-level sales information including Sale Price |
-| Products | Product details such as Brand, Category, Department, and Retail Price |
-| Inventory Items | Inventory records linked to products and distribution centers |
-| Distribution Centers | Warehouse and distribution center information |
-| Events | Website user activity such as page visits, traffic source, browser, sessions, and event types |
+| Users | Customer information including age, gender, location |
+| Orders | Customer orders and purchase dates |
+| Order Items | Product-level sales information |
+| Products | Product details such as brand, category, department |
+| Inventory Items | Inventory linked to products |
+| Distribution Centers | Warehouse locations |
+| Events | Website traffic, sessions, browser usage, and user events |
 
 ---
 
@@ -54,21 +56,34 @@ The dataset contains transactional and website interaction data collected from a
 - Pivot Tables
 - Pivot Charts
 - Slicers
-- Timeline
 
 ---
 
 # 📈 Dashboard Pages
 
-## 1️⃣ Overview Dashboard
+## 🏠 Home Page
+
+Landing page used for dashboard navigation.
+
+### Features
+
+- Interactive navigation menu
+- Modern dashboard interface
+- Quick access to all analytical pages
+
+![Home Dashboard](Images/Home.png)
+
+---
+
+## 📊 Overview Dashboard
 
 Provides a high-level summary of business performance.
 
 ### KPIs
 
 - Total Revenue
-- Total Orders
 - Average Order Value (AOV)
+- Total Orders
 - Total Users
 - Total Products
 
@@ -80,134 +95,109 @@ Provides a high-level summary of business performance.
 
 ### Business Insights
 
-This dashboard helps decision-makers:
+- Monitor overall business performance.
+- Identify revenue trends.
+- Track monthly order growth.
+- Discover top-performing states.
+- Analyze key business KPIs.
 
-- Monitor overall company performance.
-- Identify revenue growth trends.
-- Detect seasonal sales patterns.
-- Discover the highest revenue-generating states.
-- Track customer growth over time.
-
-### Possible Business Decisions
-
-- Increase inventory before high-demand months.
-- Invest more in top-performing regions.
-- Investigate revenue drops during specific periods.
+![Overview Dashboard](Images/Overview.png)
 
 ---
 
-## 2️⃣ Sales Dashboard
+## 💰 Sales Dashboard
 
-Focuses on product and sales performance.
+Analyzes revenue performance across products and distribution channels.
 
 ### Visualizations
 
-- Revenue by Distribution Center
+- Revenue Forecast
 - Revenue by Category
+- Revenue by Distribution Center
 - Top 10 Brands
 - Revenue by Gender
 
 ### Business Insights
 
-This dashboard helps identify:
+- Identify top-selling brands.
+- Evaluate product categories.
+- Compare distribution center performance.
+- Analyze revenue by customer gender.
+- Forecast future revenue trends.
 
-- Best-performing product categories.
-- Highest revenue brands.
-- Distribution centers generating the most sales.
-- Purchasing behavior by gender.
-
-### Possible Business Decisions
-
-- Increase marketing for top-selling brands.
-- Expand inventory for high-demand categories.
-- Optimize distribution center operations.
-- Improve performance of underperforming categories.
+![Sales Dashboard](Images/Sales.png)
 
 ---
 
-## 3️⃣ Customer Analytics Dashboard
+## 👥 Customer Analytics Dashboard
 
-Analyzes customer demographics and purchasing behavior.
+Provides insights into customer demographics and purchasing behavior.
 
 ### Visualizations
 
 - Customers by Gender
 - Customers by Age
-- Top States by Customers
-- Average Order Value by Age
+- Top 10 States by Customers
+- Top 10 Customers by Revenue
+- Average Order Value by Age Group
 
 ### Business Insights
 
-Provides answers to questions such as:
+- Understand customer distribution.
+- Identify valuable customer segments.
+- Compare purchasing behavior across age groups.
+- Discover regions with the largest customer base.
 
-- Which age groups represent the largest customer base?
-- Which states have the highest number of customers?
-- Does purchasing behavior differ by gender?
-- Which customer segments generate higher order values?
-
-### Possible Business Decisions
-
-- Design age-specific marketing campaigns.
-- Personalize promotions for different customer segments.
-- Expand services in high-customer regions.
-- Improve retention strategies for valuable customer groups.
+![Customer Dashboard](Images/CustomerAnalytics.png)
 
 ---
 
-## 4️⃣ Website Analytics Dashboard
+## 🌐 Website Analytics Dashboard
 
-Analyzes customer interactions with the website.
+Analyzes website traffic and user engagement.
 
 ### KPIs
 
-- Total Events
 - Total Sessions
 - Unique Visitors
-- Events per Session
+- Total Events
 - Average Sessions per User
 
 ### Visualizations
 
-- Traffic Source Analysis
+- Traffic Source
 - Browser Usage
-- Event Type Distribution
 - Events Trend
-- Top Pages
+- Event Types Distribution
+- Traffic Source × Event Type
 
 ### Business Insights
 
-This dashboard helps understand:
+- Identify the most effective traffic sources.
+- Analyze browser usage.
+- Monitor website activity over time.
+- Understand customer interaction behavior.
 
-- Which traffic sources drive the most visitors.
-- Most commonly used browsers.
-- User engagement over time.
-- Most visited pages.
-- Overall website activity.
-
-### Possible Business Decisions
-
-- Increase marketing investment in high-performing traffic sources.
-- Improve support for the most-used browsers.
-- Optimize high-traffic pages for better conversions.
-- Improve low-performing landing pages.
+![Website Dashboard](Images/WebsiteAnalytics.png)
 
 ---
 
 # 📌 Key Metrics
 
 - Total Revenue
-- Total Orders
 - Average Order Value (AOV)
+- Total Orders
 - Total Users
 - Total Products
-- Total Events
 - Total Sessions
 - Unique Visitors
+- Total Events
+
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Looker-Ecommerce-Excel-Dashboard/
 │
 ├── Dashboard/
@@ -237,15 +227,35 @@ Looker-Ecommerce-Excel-Dashboard/
 # 🎯 Skills Demonstrated
 
 - Data Cleaning
+- Data Transformation
 - Data Modeling
-- Relationship Management
+- Power Query
+- Power Pivot
 - DAX Measures
+- KPI Design
 - Business Intelligence
 - Interactive Dashboard Design
 - Data Visualization
 - Customer Analytics
-- Sales Analysis
+- Sales Analytics
 - Website Analytics
+- Revenue Forecasting
+
+---
+
+# 📷 Dashboard Preview
+
+| Home | Overview |
+|------|----------|
+| ![](Images/Home.png) | ![](Images/Overview.png) |
+
+| Sales | Customer Analytics |
+|-------|--------------------|
+| ![](Images/Sales.png) | ![](Images/CustomerAnalytics.png) |
+
+| Website Analytics |
+|-------------------|
+| ![](Images/WebsiteAnalytics.png) |
 
 ---
 
@@ -253,10 +263,12 @@ Looker-Ecommerce-Excel-Dashboard/
 
 **Mohamed Mahfouz**
 
-GitHub:
+### GitHub
+
 https://github.com/mohamedmahfouz604
 
-LinkedIn:
+### LinkedIn
+
 https://www.linkedin.com/in/mohamed-mahfouz-434283357
 
 ---
