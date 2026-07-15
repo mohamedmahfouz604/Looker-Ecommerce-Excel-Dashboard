@@ -202,22 +202,6 @@ Analyzes website traffic and user engagement.
 
 ---
 
-# 📷 Dashboard Preview
-
-| Home | Overview |
-|------|----------|
-| ![](Images/Home.png) | ![](Images/Overview.png) |
-
-| Sales | Customer Analytics |
-|-------|--------------------|
-| ![](Images/Sales.png) | ![](Images/CustomerAnalytics.png) |
-
-| Website Analytics |
-|-------------------|
-| ![](Images/WebsiteAnalytics.png) |
-
----
-
 # 👨‍💻 Author
 
 **Mohamed Mahfouz**
